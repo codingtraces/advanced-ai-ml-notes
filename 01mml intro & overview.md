@@ -10,7 +10,7 @@ Machine learning is more than picking an algorithm. In production, ML systems ar
 
 ---
 
-# Figure 1.1 — Components of a production-ready ML system (ASCII)
+# Figure 1.1 — Components of a production-ready ML system 
 
 ```
 +---------------------------------------------------------------+
@@ -35,7 +35,7 @@ Machine learning is more than picking an algorithm. In production, ML systems ar
 
 ---
 
-# Figure 1.2 — ML system design steps (ASCII flow)
+# Figure 1.2 — ML system design steps 
 
 ```
 Clarify requirements
@@ -78,7 +78,7 @@ Writing requirements down demonstrates structure and alignment.
 
 ---
 
-# Figure 1.3 — Harmful content detection: input → system → probability (ASCII)
+# Figure 1.3 — Harmful content detection: input → system → probability 
 
 ```
    +---------+
@@ -152,7 +152,7 @@ ML models learn from data. Two essential practices: **data engineering** and **f
 * **Data storage**: SQL (Postgres/MySQL) vs NoSQL (Redis, DynamoDB), data warehouses/lakes
 * **ETL**: Extract → Transform → Load
 
-# Figure 1.8 — ETL (ASCII)
+# Figure 1.8 — ETL 
 
 ```
 [Database]  [Logs]  [Flat files]
@@ -236,7 +236,7 @@ Steps:
 4. Split data (train / val / test)
 5. Handle class imbalance (oversample / undersample / weighted loss)
 
-# Figure 1.15 — Dataset construction (ASCII)
+# Figure 1.15 — Dataset construction 
 
 ```
 [Collect raw data]
@@ -306,7 +306,7 @@ On-device:
 * A/B testing (random traffic split; ensure statistical power)
 * Canary releases, interleaving experiments, bandit methods
 
-# Figure — Shadow deployment (ASCII)
+# Figure — Shadow deployment 
 
 ```
 All requests ->  +----------------------------+
@@ -395,10 +395,4 @@ A strong ML system design answer is structured, pragmatic, and mindful of trade-
 
 ---
 
-If you want I can:
 
-* Convert this to a **one-page PDF** or **GitHub README** file.
-* Produce a **one-page cheat-sheet** for interview prep.
-* Generate **example answers** applying this framework to specific prompts (e.g., design a movie recommender or harmful-content detector), with ASCII diagrams included.
-
-Which would you like next?
