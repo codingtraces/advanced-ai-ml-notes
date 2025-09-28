@@ -1,4 +1,4 @@
-# Street View Blurring — Conceptual Interview Guide (simple, interview-friendly)
+# Street View Blurring
 
 **One-line summary:**
 Automatically find faces and license plates in street images and blur them to protect privacy.
@@ -49,7 +49,7 @@ Keep highest-score box and drop overlaps => one neat box per object
 
 ---
 
-## Key conceptual trade-offs to highlight (one-liners)
+## Key conceptual trade-offs to highlight 
 - **Accuracy vs cost**: More labeling and bigger models increase accuracy but cost money and time.
 - **Offline vs real-time**: Blurring can be done offline for quality; real-time would cost much more.
 - **Precision vs recall**: High precision means few false blurs; high recall means few missed faces. For privacy, prioritize recall but avoid over-blurring.
@@ -57,7 +57,7 @@ Keep highest-score box and drop overlaps => one neat box per object
 
 ---
 
-## Simple answers to common interview questions (memorize these short replies)
+## Questions 
 - **How do you get training data?**
   "Start with sampled annotated images, expand with augmentation, and collect user reports to add hard examples for retraining." 
 
@@ -72,7 +72,7 @@ Keep highest-score box and drop overlaps => one neat box per object
 
 ---
 
-## Tiny glossary of buzzwords (say 4–6 in interviews)
+## Keywords
 - **Object detection:** Finding objects and their locations.
 - **Bounding box:** The rectangle that marks an object in an image.
 - **Non-Maximum Suppression (NMS):** Remove duplicate overlapping boxes.
@@ -80,11 +80,10 @@ Keep highest-score box and drop overlaps => one neat box per object
 - **Hard negative mining:** Add tricky false-positive cases into training so model learns them.
 - **Human-in-the-loop:** Use people to check model outputs and correct labels.
 
-Memorize 4 of these and a one-liner each.
 
 ---
 
-## Short interview script (five lines to read quickly)
+## Quick Infos
 1. One-liner: "We detect faces and plates and blur them to protect privacy."
 2. How: "Train a detector on labeled images, run batch predictions to blur images, and handle user reports." 
 3. Trade-off: "We prioritize recall to avoid privacy leaks, but moderate precision to avoid excessive blurring." 
@@ -99,8 +98,3 @@ Memorize 4 of these and a one-liner each.
 - "How would you keep the system scalable as images grow?"
 
 ---
-
-## Final tip
-Start answers with the one-liner, follow the five-line script, and always mention a clear trade-off. Interviewers care more about how you reason and choose trade-offs than deep architecture details.
-
-If you'd like, I can convert this into 6 flashcards, make a printable cheat-sheet, or produce 3 mock interview Q&As for the Street View blurring topic.
