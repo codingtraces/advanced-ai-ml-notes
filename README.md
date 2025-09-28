@@ -8,8 +8,8 @@ These notes cover practical case studies and real-world applications, useful for
 ## 📂 Machine Learning System Design
 
 1. [Foundations & Overview](https://github.com/codingtraces/advanced-ai-ml-notes/blob/master/01mml%20intro%20%26%20overview.md)  
-2. Image-Based Product Search  
-3. Street View Privacy Blurring  
+2. [Image-Based Product Search](https://github.com/codingtraces/advanced-ai-ml-notes/blob/master/02-ml-visual_search.md)  
+3. [Street View Privacy Blurring](https://github.com/codingtraces/advanced-ai-ml-notes/blob/master/03-ml-street_view_blurring.md)  
 4. Video Content Search (YouTube)  
 5. Harmful / Unsafe Content Detection  
 6. Personalized Video Recommendations  
